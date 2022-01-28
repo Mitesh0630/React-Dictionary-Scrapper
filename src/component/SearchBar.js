@@ -80,8 +80,6 @@ const SearchBar = () => {
           }}
         />
 
-        <br />
-
         {!isLoading && (
           <Button
             shape="round"

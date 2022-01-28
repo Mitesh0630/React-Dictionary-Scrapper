@@ -5,7 +5,7 @@ const SearchList = (props) => {
   return (
     <>
       {props.data.map((data) => (
-        <li key={data.partOfSpeech}>
+        <p key={data.partOfSpeech}>
           <SearchItem
             partOfSpeech={data.partOfSpeech}
             definations={data.definitions[0]}
@@ -13,7 +13,7 @@ const SearchList = (props) => {
             example={data.definitions[0].example}
             synonyms={data.definitions[0].synonyms}
           ></SearchItem>
-        </li>
+        </p>
       ))}
     </>
   );

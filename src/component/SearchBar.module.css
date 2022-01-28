@@ -6,6 +6,7 @@
   padding: 10px;
   font-size: larger;
   border-radius: 15px;
+  width: 600px;
 
   outline: 0;
 }
@@ -22,7 +23,7 @@ ul li {
   font-size: 50px;
   font-family: Comic Sans MS;
   font-weight: bold;
-  color: rgb(0, 26, 255);
+  color: rgb(12, 32, 209);
   border-radius: 20px;
 
   /* box-shadow: 0 1px 58px 50px rgba(226, 8, 8, 0.25); */
