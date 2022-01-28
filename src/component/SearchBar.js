@@ -2,7 +2,7 @@ import React, { useRef, useState, createContext } from "react";
 
 import classes from "./SearchBar.module.css";
 
-import { Button, Input, message, notification } from "antd";
+import { Button, notification } from "antd";
 
 import SearchList from "./SearchList";
 
@@ -67,6 +67,7 @@ const SearchBar = () => {
   return (
     <>
       <div>
+        <h2 className={classes.h2}>My Dictionary</h2>
         <input
           className={classes.input}
           ref={enteredSearchInput}

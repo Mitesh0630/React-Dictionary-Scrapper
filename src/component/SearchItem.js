@@ -13,7 +13,7 @@ const SearchItem = (props) => {
         <Row>
           <Col span={20} offset={2}>
             <section className={classes.summary}>
-              <h2>Keyword"{props.partOfSpeech}"</h2>
+              <h2>Keyword:-"{props.partOfSpeech}"</h2>
               <p>
                 <b>Definitions :- </b>
                 {props.defination}
