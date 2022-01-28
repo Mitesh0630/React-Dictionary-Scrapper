@@ -1,23 +1,19 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import SearchBar from "./component/SearchBar";
+import "antd/dist/antd.css";
+import { Layout } from "antd";
+const { Content } = Layout;
+// import NavBar from "./component/NavBar/Navbar";
 
 function App() {
+  const searchStyle = { padding: "0", marginTop: 70, marginBottom: 30 };
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Layout style={{ padding: "10px" }}>
+        <Content className="site-layout" style={searchStyle}>
+          <SearchBar />
+        </Content>
+      </Layout>
     </div>
   );
 }

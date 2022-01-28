@@ -1,0 +1,7 @@
+.imgStyle {
+  height: 60px;
+  width: 180px;
+}
+.imgStyle:hover {
+  /* background-color: #001529; */
+}
